@@ -2,7 +2,13 @@
 
 const loop = require('./loop');
 const recursive = require('./recursive');
-const faker = require('faker');
+
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 
 function main() {
   console.log('====== loop =======');
@@ -20,7 +26,7 @@ function main() {
   const lableLoop = 'loop';
   const lableRecur = 'recursive';
 
-  for (let i = 0; i <= 100; i += 10) {
+  for (let i = 0; i <= 200; i += 10) {
     console.log(`\n>>> 2^${i}`);
 
     console.time(lableLoop);
@@ -30,6 +36,8 @@ function main() {
     console.time(lableRecur);
     recursive(i);
     console.timeEnd(lableRecur);
+
+    i += getRandomInt(0, 9);
   }
 
 }
