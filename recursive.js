@@ -11,7 +11,7 @@
 const recursive = (n) => {
   let bound = n;
   if (bound < 1) return 1;
-  return 2*recursive(--n);
+  return 2*recursive(--bound);
 };
 
 module.exports = recursive;

@@ -10,57 +10,61 @@
 2^4 === 16 ? true
 
 >>> 2^0
-loop: 0.290ms
-recursive: 0.030ms
+loop: 0.323ms
+recursive: 0.036ms
 
->>> 2^14
-loop: 0.020ms
-recursive: 0.017ms
+>>> 2^12
+loop: 0.024ms
+recursive: 0.016ms
 
->>> 2^32
-loop: 0.014ms
-recursive: 0.014ms
+>>> 2^29
+loop: 0.016ms
+recursive: 0.013ms
 
->>> 2^48
+>>> 2^43
 loop: 0.015ms
 recursive: 0.016ms
 
->>> 2^61
-loop: 0.015ms
+>>> 2^59
+loop: 0.016ms
 recursive: 0.018ms
 
->>> 2^76
+>>> 2^78
 loop: 0.016ms
 recursive: 0.021ms
 
->>> 2^95
-loop: 0.017ms
+>>> 2^93
+loop: 0.018ms
 recursive: 0.022ms
 
->>> 2^105
-loop: 0.019ms
-recursive: 0.023ms
-
->>> 2^116
+>>> 2^103
 loop: 0.019ms
 recursive: 0.024ms
 
->>> 2^132
-loop: 0.018ms
-recursive: 0.027ms
-
->>> 2^145
+>>> 2^122
 loop: 0.019ms
+recursive: 0.026ms
+
+>>> 2^135
+loop: 0.020ms
 recursive: 0.028ms
 
->>> 2^161
+>>> 2^145
 loop: 0.021ms
+recursive: 0.029ms
+
+>>> 2^161
+loop: 0.022ms
 recursive: 0.031ms
 
->>> 2^171
-loop: 0.021ms
-recursive: 0.032ms
+>>> 2^173
+loop: 0.023ms
+recursive: 0.033ms
 
->>> 2^190
-loop: 0.022ms
+>>> 2^183
+loop: 0.023ms
+recursive: 0.034ms
+
+>>> 2^193
+loop: 0.024ms
 recursive: 0.036ms
