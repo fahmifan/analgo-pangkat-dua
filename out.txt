@@ -1,0 +1,54 @@
+====== loop =======
+2^1 === 2 ? true
+2^2 === 4 ? true
+2^3 === 8 ? true
+2^4 === 16 ? true
+====== recursive =======
+2^1 === 2 ? true
+2^1 === 4 ? true
+2^3 === 8 ? true
+2^4 === 16 ? true
+
+>>> 2^0
+loop: 0.312ms
+recursive: 0.027ms
+
+>>> 2^10
+loop: 0.017ms
+recursive: 0.013ms
+
+>>> 2^20
+loop: 0.009ms
+recursive: 0.010ms
+
+>>> 2^30
+loop: 0.009ms
+recursive: 0.017ms
+
+>>> 2^40
+loop: 0.012ms
+recursive: 0.013ms
+
+>>> 2^50
+loop: 0.012ms
+recursive: 0.013ms
+
+>>> 2^60
+loop: 0.011ms
+recursive: 0.015ms
+
+>>> 2^70
+loop: 0.012ms
+recursive: 0.016ms
+
+>>> 2^80
+loop: 0.021ms
+recursive: 0.018ms
+
+>>> 2^90
+loop: 0.013ms
+recursive: 0.027ms
+
+>>> 2^100
+loop: 0.021ms
+recursive: 0.020ms
