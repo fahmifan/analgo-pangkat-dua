@@ -5,206 +5,50 @@
 2^4 === 16 ? true
 ====== recursive =======
 2^1 === 2 ? true
-221 === 4 ? true
+2^1 === 4 ? true
 2^3 === 8 ? true
 2^4 === 16 ? true
 
->>> test 1 2^46
-loop: 0.262ms
-recursive: 0.032ms
+>>> 2^0
+loop: 0.243ms
+recursive: 0.019ms
 
->>> test 2 2^14
-loop: 0.027ms
-recursive: 0.013ms
+>>> 2^10
+loop: 0.022ms
+recursive: 0.012ms
 
->>> test 3 2^27
-loop: 0.009ms
-recursive: 0.017ms
-
->>> test 4 2^85
-loop: 0.015ms
-recursive: 0.026ms
-
->>> test 5 2^16
-loop: 0.009ms
-recursive: 0.009ms
-
->>> test 6 2^30
-loop: 0.008ms
-recursive: 0.010ms
-
->>> test 7 2^2
-loop: 0.007ms
-recursive: 0.007ms
-
->>> test 8 2^56
-loop: 0.010ms
-recursive: 0.014ms
-
->>> test 9 2^91
-loop: 0.012ms
-recursive: 0.018ms
-
->>> test 10 2^19
+>>> 2^20
 loop: 0.008ms
 recursive: 0.009ms
 
->>> test 11 2^1
-loop: 0.007ms
-recursive: 0.006ms
-
->>> test 12 2^95
-loop: 0.012ms
-recursive: 0.020ms
-
->>> test 13 2^22
+>>> 2^30
 loop: 0.009ms
 recursive: 0.010ms
 
->>> test 14 2^11
-loop: 0.008ms
-recursive: 0.007ms
-
->>> test 15 2^86
-loop: 0.012ms
-recursive: 0.025ms
-
->>> test 16 2^29
-loop: 0.013ms
-recursive: 0.011ms
-
->>> test 17 2^40
+>>> 2^40
 loop: 0.009ms
 recursive: 0.012ms
 
->>> test 18 2^79
-loop: 0.012ms
-recursive: 0.025ms
+>>> 2^50
+loop: 0.010ms
+recursive: 0.013ms
 
->>> test 19 2^60
-loop: 0.012ms
-recursive: 0.014ms
-
->>> test 20 2^89
-loop: 0.013ms
-recursive: 0.026ms
-
->>> test 21 2^57
+>>> 2^60
 loop: 0.010ms
 recursive: 0.014ms
 
->>> test 22 2^76
-loop: 0.012ms
+>>> 2^70
+loop: 0.011ms
+recursive: 0.016ms
+
+>>> 2^80
+loop: 0.011ms
 recursive: 0.017ms
 
->>> test 23 2^11
-loop: 0.008ms
-recursive: 0.008ms
-
->>> test 24 2^7
-loop: 0.007ms
-recursive: 0.007ms
-
->>> test 25 2^27
-loop: 0.008ms
-recursive: 0.009ms
-
->>> test 26 2^31
-loop: 0.008ms
-recursive: 0.010ms
-
->>> test 27 2^90
+>>> 2^90
 loop: 0.012ms
-recursive: 0.025ms
-
->>> test 28 2^49
-loop: 0.009ms
-recursive: 0.013ms
-
->>> test 29 2^15
-loop: 0.008ms
-recursive: 0.009ms
-
->>> test 30 2^98
-loop: 0.013ms
-recursive: 0.027ms
-
->>> test 31 2^0
-loop: 0.006ms
-recursive: 0.006ms
-
->>> test 32 2^91
-loop: 0.012ms
-recursive: 0.018ms
-
->>> test 33 2^87
-loop: 0.012ms
-recursive: 0.018ms
-
->>> test 34 2^74
-loop: 0.011ms
-recursive: 0.016ms
-
->>> test 35 2^36
-loop: 0.008ms
-recursive: 0.011ms
-
->>> test 36 2^91
-loop: 0.019ms
 recursive: 0.019ms
 
->>> test 37 2^9
-loop: 0.007ms
-recursive: 0.007ms
-
->>> test 38 2^53
-loop: 0.010ms
-recursive: 0.013ms
-
->>> test 39 2^26
-loop: 0.008ms
-recursive: 0.009ms
-
->>> test 40 2^31
-loop: 0.010ms
-recursive: 0.010ms
-
->>> test 41 2^2
-loop: 0.007ms
-recursive: 0.006ms
-
->>> test 42 2^82
-loop: 0.012ms
-recursive: 0.024ms
-
->>> test 43 2^71
-loop: 0.022ms
-recursive: 0.016ms
-
->>> test 44 2^73
-loop: 0.011ms
-recursive: 0.022ms
-
->>> test 45 2^4
-loop: 0.007ms
-recursive: 0.007ms
-
->>> test 46 2^10
-loop: 0.007ms
-recursive: 0.008ms
-
->>> test 47 2^72
-loop: 0.011ms
-recursive: 0.016ms
-
->>> test 48 2^26
-loop: 0.009ms
-recursive: 0.009ms
-
->>> test 49 2^38
-loop: 0.009ms
-recursive: 0.011ms
-
->>> test 50 2^16
-loop: 0.008ms
-recursive: 0.009ms
+>>> 2^100
+loop: 0.014ms
+recursive: 0.028ms
